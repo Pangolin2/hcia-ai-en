@@ -1,0 +1,108 @@
+                                   HCIA-AI V4.0 Version Instructions
+
+                                  HCIA-AI V4.0 Version Instructions
+
+     Version              Date                              Instruction
+                                       Enabled V3.5 training materials, lab guides, and
+      V3.5           2022/12/30
+                                       exam questions.
+                                       Enable V4.0 training materials, lab guides, and
+                                       exam questions.
+      V4.0           2025/3/28         V4.0 will be released on March 28, 2025, and V3.5
+                                       will become unavailable from September 30, 2025.
+                                       The earlier and new versions coexist for 6 months.
+                                       Update V4.0 training materials, lab guides, and
+      V4.0           2025/6/30
+                                       exam questions.
+
+
+
+1.     Training Material Change Instructions
+
+       The training materials of HCIA-AI V4.0 are as follows:
+             Key Points             V3.5             V4.0       Change Instructions
+                                                                Optimized the AI overview and AI
+                                    15%              19%        technologies and application.
+ 1. AI Overview
+                                                                Added basic concepts and applications of
+                                                                foundation models.
+ 2. Machine Learning                20%              19%        N/A
+ Overview
+                                                                Optimized and reconstructed the deep
+                                                                learning overview, and described the basic
+                                                                concepts of deep learning from the
+ 3. Basics of Deep                                              perspective of the evolution of neural
+ Learning and Foundation            25%              29%        networks such as perceptrons and fully-
+ Models                                                         connected neural networks.
+                                                                Added the basics of the Transformer
+                                                                architecture and foundation model
+                                                                infrastructure.
+                                                                Added the description of PyTorch basics
+ 4. AI Development                  20%              14%        and commonly used modules.
+ Framework                                                      Added the description of model
+                                                                deployment.
+                                    14%              0%         Deleted the AI platform.
+ 5. AI Platform
+ 5. AI Business Process              0%              14%        Added AI business processes and
+ Overview                                                       large model business process.
+                                                                Optimized cutting-edge AI application
+                                                                scenarios and added cutting-edge
+ 6. Cutting-edge AI                  6%              5%         applications such as voice assistant, smart
+ Applications
+                                                                home, intelligent vehicle and intelligent
+                                                                robot.
+
+
+2025-07-08                                    Page 1 of 2
+                                   HCIA-AI V4.0 Version Instructions
+
+                                                                Simplified the description of quantum
+                                                                computing and machine learning.
+
+
+2.   Lab Guide Change Instructions
+
+     The lab guides of HCIA-AI V4.0 are as follows:
+        Key Points                  V3.5             V4.0       Change Instructions
+ 1. Machine Learning                30%              33%        N/A
+ Experiment
+ 2. Experiments on Deep                                         Deleted.
+ Learning and AI                    50%               0%
+ Development
+ Framework
+                                                                Added the complete description of
+ 3. Experiments on Deep              0%              12%        implementing a fully-connected neural
+ Learning
+                                                                network.
+ 4. Experiments on AI                                           Added the PyTorch basics, network
+ Development                         0%              44%        construction, and image classification
+ Framework                                                      experiments.
+ 5. Model Deployment                                            Added the on LLaMA.cpp model
+ and Application                     0%              11%        deployment and application experiment.
+ Experiment
+ 6. AI ModelArts                    20%               0%        Deleted.
+ Experiment
+
+3.   Test Content Change Instructions
+
+     The following table lists the test content of HCIA-AI V4.0. For details about the differences from HCIA-
+AI V3.5, see training material change instructions and lab guide change instructions.
+                              Key Points                                          Written Exam
+
+ 1. AI Overview                                                                         10%
+
+ 2. Machine Learning Overview                                                           20%
+
+ 3. Basics of Deep Learning and Foundation Models                                       30%
+
+ 4. AI Development Framework                                                            20%
+
+ 5. AI Business Process Overview                                                        15%
+
+ 6. Cutting-edge AI Applications                                                        5%
+
+
+
+
+2025-07-08                                    Page 2 of 2
+

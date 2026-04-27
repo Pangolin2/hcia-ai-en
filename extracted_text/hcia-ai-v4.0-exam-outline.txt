@@ -1,0 +1,110 @@
+                                             HCIA-AI V4.0 Exam Outline
+
+
+                                       HCIA-AI V4.0 Exam Outline
+HCIA-AI V4.0 Certification Exam
+
+ Exam Name                         HCIA-AI
+
+ Exam Code                         H13-311
+
+ Language                          Chinese/English
+                                   True or false question, single-choice question, multiple-choice question, and fill-in-
+ Question Type
+                                   the-blank question
+ Exam Fee                          200USD
+
+ Exam Duration                     90 min
+
+ Pass Score/Total Score            600/1000
+
+Exam Content
+
+
+The HCIA-AI V4.0 exam covers AI overview, basics of machine learning, basics of deep learning and foundation models,
+AI development frameworks, AI Business Process Overview, and cutting-edge AI applications.
+
+
+Knowledge Point Percentage
+
+
+                                         Key Points                                                  Percentage
+
+                                        AI Overview                                                      10%
+
+                              Machine Learning Overview                                                  20%
+
+                     Basics of Deep Learning and Foundation Models                                       30%
+
+                              AI Development Framework                                                   20%
+
+                             AI Business Process Overview                                                15%
+
+                              Cutting-edge AI Applications                                               5%
+
+
+
+Key Points
+     ⚫       AI Overview
+             ◼   AI Description
+             ◼   AI Technologies
+             ◼   Overview of DeepSeek and Its Influence on AI Development
+             ◼   AI Applications
+             ◼   Disputes and Future of AI
+     ⚫       Machine Learning Overview
+             ◼   Machine learning Algorithms
+             ◼   Machine Learning Classification
+             ◼   Machine Learning Process
+
+
+
+2025-07-08                                                                                          Page 1 of 2
+                                            HCIA-AI V4.0 Exam Outline
+
+             ◼    Other Key Machine Learning Methods
+             ◼    Common Machine Learning Algorithms
+     ⚫       Basics of Deep Learning and Foundation Models
+             ◼    Perceptron
+             ◼    Fully-connected Neural Network and Its Training Process
+             ◼    Convolutional Neural Network
+             ◼    Model Architecture Based on Recurrent Neural Network
+             ◼    Transformer Architecture
+             ◼    Foundation Model Infrastructure
+     ⚫       AI Development Framework
+             ◼    AI Framework
+             ◼    Basics of AI Development Framework
+             ◼    PyTorch
+             ◼    AI Application Development Process
+     ⚫       AI Business Process Overview
+             ◼    AI Business Process
+             ◼    Large Model Business Process
+             ◼    Use of Large Models and Prompt Engineering
+     ⚫       Cutting-edge AI Applications
+             ◼    Voice assistants
+             ◼    Smart Homes
+             ◼    Intelligent Vehicles
+             ◼    Intelligent Recommendation
+             ◼    Intelligent Robot
+             ◼    AI4Science
+
+
+
+
+The test content mentioned in this document provides a general test guide for candidates. Others not mentioned in
+this document may also be included in the exam.
+
+
+Reference
+
+HCIA-AI V4.0 Course
+
+
+Recommended Training
+
+HCIA-AI V4.0 Training
+
+
+
+
+2025-07-08                                                                                  Page 2 of 2
+

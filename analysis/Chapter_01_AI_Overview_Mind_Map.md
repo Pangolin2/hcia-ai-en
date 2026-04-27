@@ -1,0 +1,597 @@
+# Chapter 1: AI Overview - Mind Map
+
+> Format: Markdown hierarchical mind map.  
+> Source: `hcia-ai-v4.0-training-material.pdf`, Chapter 1 `AI Overview`.
+
+## AI Overview
+
+- Learning Objectives
+  - Understand basic AI concepts
+  - Understand AI technologies and their history
+  - Understand AI applications across technologies and industries
+  - Understand future AI trends
+
+- 1. AI Overview
+  - AI in the Eyes of Researchers
+    - Alan Turing
+      - Core question: "Can machines think?"
+      - Historical reference: `Computing Machinery and Intelligence`
+    - John McCarthy
+      - AI as making machines behave like humans
+      - Dartmouth Conference, 1956
+      - Coined the term `Artificial Intelligence`
+    - Marvin Minsky
+      - AI as making machines do things that would require intelligence if done by humans
+  - What Is Intelligence?
+    - Multiple Intelligences
+      - Verbal / Linguistic
+      - Logical / Mathematical
+      - Visual / Spatial
+      - Bodily / Kinesthetic
+      - Musical / Rhythmic
+      - Inter-personal / Social
+      - Intra-personal / Introspective
+      - Naturalist
+  - What Is AI?
+    - `Artificial`
+      - Designed, created, and made by humans
+    - `Intelligence`
+      - Thinking and behaving like humans
+    - AI definition
+      - A technical science for researching and developing theories, methods, techniques, and application systems
+      - Goal: simulate, extend, and enhance human intelligence
+    - Interdisciplinary nature
+      - Computer science
+      - Mathematics
+      - Cognitive science
+      - Engineering
+      - Domain industries
+  - Relationships Among AI, Machine Learning, and Deep Learning
+    - Artificial Intelligence
+      - Broad research area
+      - Studies methods and systems that simulate and extend human intelligence
+    - Machine Learning
+      - A major implementation path for AI
+      - Computers learn from data and improve performance without explicit rule programming
+    - Deep Learning
+      - A branch of machine learning
+      - Based on artificial neural networks
+      - Uses hierarchical feature representation
+      - Strong in images, speech, text, and multimodal data
+    - Teaching anchor
+      - AI is the goal and field
+      - Machine Learning is a method
+      - Deep Learning is a neural-network-based method inside machine learning
+  - Major Schools of AI
+    - Symbolism
+      - Also called Logicism, Psychologism, or Computerism
+      - Core idea
+        - Human cognition is based on symbols
+        - Intelligence can be implemented through symbolic reasoning and calculation
+      - Representative technologies
+        - Heuristic algorithms
+        - Expert systems
+        - Knowledge engineering
+      - Teaching focus
+        - Rule-based reasoning
+        - Knowledge representation
+    - Connectionism
+      - Also called Bionicsism or Physiologism
+      - Core idea
+        - Intelligence originates from brain-like neural structures
+        - Human thinking primitives are neurons rather than symbols
+      - Representative technologies
+        - Neural networks
+        - Backpropagation
+        - Deep learning
+      - Teaching focus
+        - Model learns from data
+        - Neural network as the foundation of modern AI
+    - Behaviorism
+      - Also called Evolutionism or Cyberneticsism
+      - Core idea
+        - Intelligence depends on perception and action
+        - Intelligent behavior emerges through interaction with the environment
+      - Representative direction
+        - Robotics
+        - Adaptive control
+        - Perception-action systems
+      - Teaching focus
+        - Learning from environment
+        - Continuous correction through feedback
+  - Three Elements for AI Development
+    - Data
+      - The fuel of AI systems
+      - Related topics
+        - Data mining
+        - Data analysis
+        - Data warehouse
+        - Data visualization
+        - Data security
+        - Privacy protection
+    - Algorithms
+      - The brain of AI systems
+      - Related technologies
+        - Machine Learning
+        - Deep Learning
+        - Natural Language Processing
+        - Computer Vision
+        - Recommendation systems
+    - Computing Power
+      - The engine of AI systems
+      - Related infrastructure
+        - Data centers
+        - Distributed computing
+        - Cloud computing
+        - Edge computing
+        - High-performance computing
+  - AI Industry Ecosystem
+    - Upstream
+      - Data
+      - Chips
+      - Computing infrastructure
+      - Algorithms
+    - Middle layer
+      - Frameworks
+      - Platforms
+      - Model development tools
+    - Downstream
+      - Industry applications
+      - AI products
+      - AI solutions
+  - Types of AI
+    - Strong AI
+      - Machines capable of reasoning and problem solving
+      - Self-awareness and independent thinking
+      - General human-level intelligence
+      - Current status: theoretical and not yet realized
+    - Weak AI
+      - Machines appear intelligent in specific tasks
+      - No true self-awareness
+      - Current mainstream stage of AI
+
+- 2. AI Technologies
+  - Overview of AI Technologies and Application Fields
+    - Major technical fields
+      - Natural Language Processing
+      - Computer Vision
+      - Multimodal AI
+      - Foundation Models
+      - Recommendation systems
+      - Speech processing
+      - Robotics
+  - Natural Language Processing
+    - Definition
+      - A branch of computer science and AI
+      - Enables computers to understand and generate human language
+    - Development stages
+      - Rules and linguistic theories
+      - Machine learning and deep learning
+      - Large Language Models
+    - Applications
+      - Sentiment analysis
+      - Text mining
+      - Machine translation
+      - Chatbots
+      - Smart writing
+      - Text summarization
+      - Information extraction
+    - NLP Tasks
+      - Text Classification
+        - Input
+          - Article or text document
+          - Fixed category set
+        - Output
+          - Predicted category
+      - Sequence Labeling
+        - Labels each position in a sequence
+        - Typical tasks
+          - Part-of-speech tagging
+          - Named Entity Recognition
+      - Text Generation
+        - Automatically generates grammatically correct and meaningful text
+        - Examples
+          - News
+          - Emails
+          - Articles
+          - Social media posts
+          - Poems
+          - Machine translation
+      - Knowledge Graph
+        - Graphical data model for structured information
+        - Represents entities and relationships
+        - NLP helps extract entities, relationships, and attributes from text
+  - Computer Vision
+    - Definition
+      - Uses computers and algorithms to simulate human vision
+      - Extracts, analyzes, and understands image or video information
+    - Applications
+      - Image classification
+      - Object detection
+      - Semantic segmentation
+      - Video inpainting
+      - Intelligent driving
+      - Image generation
+    - CV Tasks
+      - Object Detection
+        - Detects and locates objects in images or videos
+        - Application scenarios
+          - Traffic monitoring
+          - Image search
+          - Facial recognition
+          - Human-computer interaction
+      - Image Segmentation
+        - Partitions an image into multiple segments
+        - Types
+          - Semantic segmentation
+          - Instance segmentation
+        - Output
+          - Pixel-level category labels
+      - Object Tracking
+        - Tracks target trajectories over time
+        - Application scenarios
+          - Intelligent transportation
+          - Security monitoring
+          - Human-machine interaction
+          - Autonomous driving
+      - OCR
+        - Optical Character Recognition
+        - Converts characters in images or scans into editable text
+        - Application scenarios
+          - ID cards
+          - Driving licenses
+          - Invoices
+          - Customs forms
+          - Tables and general documents
+      - Image Generation
+        - Generates or modifies images
+        - Subtasks
+          - Super resolution
+          - Style migration
+          - Image inpainting
+  - Foundation Model
+    - Definition
+      - A model trained on large-scale data
+      - Has massive parameters
+      - Provides powerful representation and generalization capabilities
+    - What makes a model large
+      - Large-scale data
+      - Large-scale model
+      - Large-scale compute
+    - Key principles
+      - Scaling Law
+        - As model size increases exponentially, performance can improve linearly
+      - Chinchilla Law
+        - Model size and training tokens should scale together
+      - Emergent Abilities
+        - New capabilities may appear after model scale reaches a threshold
+    - Origin of Foundation Models
+      - Seq2Seq
+        - Encoder-decoder architecture
+        - Originally used for machine translation
+      - Transformer
+        - Proposed by Google research team in 2017
+        - Foundation architecture for many modern large models
+      - Model evolution examples
+        - AlexNet
+        - VGG
+        - ResNet
+        - ELMo
+        - ViT
+        - GPT
+        - LLaMA
+        - GLM
+        - DeepSeek
+    - Large Model vs Small Model
+      - Small models
+        - Lightweight
+        - Efficient
+        - Suitable for limited resources and single tasks
+      - Large models
+        - Stronger processing capability
+        - Higher accuracy
+        - Better suited for complex and diverse tasks
+    - Dataset Differences
+      - Small model data
+        - Smaller data scale
+        - More task-specific
+        - More centralized
+      - Large model data
+        - Trillions of tokens may be used
+        - Multi-domain and cross-domain
+        - Multi-modal data characteristics
+    - How Foundation Models Learn
+      - Pre-training
+        - Learn general knowledge from massive data
+      - Fine-tuning
+        - Adapt to industry or scenario-specific data
+      - Inference
+        - Use trained model to produce outputs
+    - Multimodal Capabilities
+      - Text
+      - Image
+      - Video
+      - Audio
+      - Cross-modal understanding
+        - Describe images in text
+        - Generate images or videos from text
+    - Emergence
+      - Macro-level capability caused by interaction of many micro elements
+      - Relevant task types
+        - In-context Learning
+        - Chain-of-thought
+    - Chain-of-thought
+      - Prompting strategy for complex reasoning tasks
+      - Adds intermediate reasoning steps
+      - Useful for
+        - Arithmetic
+        - Common sense reasoning
+        - Symbolic reasoning
+
+- 3. Overview of DeepSeek and Its Influence on AI Development
+  - DeepSeek Timeline
+    - 07/2023
+      - Launch of DeepSeek
+    - 11/2023
+      - DeepSeek Coder
+      - DeepSeek-LLM Chat with 67B parameters
+    - 05/2024
+      - DeepSeek-V2
+    - 11/2024
+      - DeepSeek-R1-Lite-Preview
+    - 12/2024
+      - DeepSeek-V3
+    - 01/2025
+      - DeepSeek-R1
+  - Popularity
+    - Topped mobile app download lists in many global markets
+    - Rapid weekly active user growth
+    - Adopted or integrated by major technology companies
+  - Why DeepSeek Became Popular
+    - Competitive performance
+      - Rivaling leading LLMs in some reported capabilities
+    - Lower training cost
+      - Demonstrates efficient model development
+    - Technical innovation
+      - Mixture of Experts
+      - Multi-Head Latent Attention
+      - Auxiliary loss-free load balancing
+      - Multi-Token Prediction
+    - Open-source strategy
+      - Reduces development barriers
+      - Encourages secondary development
+  - Influence on AI Development
+    - Challenges big tech monopoly
+    - Intensifies industry competition
+    - Accelerates open-source AI adoption
+    - Lowers AI development barriers
+    - Shifts attention toward inference cost and performance
+    - Creates opportunities for domestic computing ecosystems
+  - Influence on Future AI Development
+    - Algorithm innovation
+    - Application innovation
+    - Technology sharing
+    - Secure and economical R&D
+    - AI talent cultivation
+    - Talent enablement in enterprises and research institutions
+  - Industry Adoption Examples
+    - Huawei Celia integration with DeepSeek-R1 beta
+    - Agricultural plant protection
+    - Automotive integration
+      - Geely
+      - Dongfeng Motor
+
+- 4. AI Applications
+  - AI Application History
+    - Automation
+      - Human rules plus machine execution
+      - Expert systems
+    - Perception and Understanding
+      - Big data plus deep learning
+      - Pattern recognition systems
+      - Recommendation systems
+    - Cognition, Generation, and Creation
+      - Generative AI applications
+      - Foundation models
+      - Multimodal foundation models
+    - General-purpose AI
+      - AGI direction
+      - General-purpose foundation models
+  - ChatGPT
+    - Dialog-based AI system
+    - Based on GPT language model
+    - Strengths
+      - Language understanding
+      - Context understanding
+      - Intent recognition
+      - Logical reasoning
+      - Multi-round interaction
+      - Long-text interaction
+      - Multimodal capabilities in newer versions
+  - Applications Similar to ChatGPT
+    - Text generation
+    - Code generation
+    - Video generation
+    - Image generation
+    - Integrated multimodal functions
+  - From Single Tasks to Multiple Tasks
+    - Traditional AI applications
+      - Task-specific optimization
+      - Single task type
+    - LLM applications
+      - Cross-domain task processing
+      - Knowledge transfer
+      - Zero-shot learning
+      - Few-shot learning
+      - Logical reasoning
+  - Application Cases
+    - Intelligent Mining
+      - Electromechanical chamber inspection
+      - Video surveillance
+      - Sound detection
+      - Coal conveyor belt monitoring
+      - Safety violation detection
+      - Operational violation detection
+    - Biodiversity Protection in Chile
+      - Nature Guardian project
+      - Acoustic monitoring
+      - Huawei Cloud and AI analysis
+      - Animal sound recognition
+      - Illegal activity detection
+      - Real-time ranger alerts
+    - Wildlife Protection in Greece
+      - Sound-based wildlife protection scenario
+      - AI-assisted ecological monitoring
+    - AI4Science
+      - Uses massive multi-disciplinary and multi-scale data
+      - Builds fundamental science models
+      - Main domains
+        - Life
+        - Materials
+        - Fluids
+        - Electromagnetism
+      - AI + Meteorology
+        - Faster weather forecasting
+        - Lower compute cost
+        - Improved accuracy
+      - AI + Drugs
+        - Drug molecule models
+        - Compound generation
+        - Property prediction
+        - Structure optimization
+        - Shorter lead compound discovery cycle
+    - Smart Government
+      - Real-time sensing
+      - Office collaboration
+      - Intelligent online services
+      - Policy recommendation
+      - Government service digital human
+      - City video sensing
+      - Government copywriting
+    - AI for Coding
+      - Code generation
+      - Developer assistance
+      - Productivity improvement
+
+- 5. Debates and Future of AI
+  - Debates in AI
+    - Authenticity
+      - Is what we see or hear true?
+      - Risks
+        - Deepfake
+        - Synthetic voices
+        - False images and videos
+      - Technologies involved
+        - Multimodal large models
+        - Generative Adversarial Networks
+    - Ethical Issues
+      - Discrimination and stigmatization
+      - Autonomous decision-making
+      - Lack of explainability
+      - Harm to human dignity, mind, or body
+      - Malicious use of robots or AI systems
+    - Employment
+      - AI may replace
+        - Repetitive work
+        - Hazardous work
+      - AI may create
+        - New jobs
+        - New productivity tools
+        - New business models
+    - Privacy and Data Security
+      - User perspective
+        - Consent
+        - Privacy policy
+        - Refusal to provide unnecessary data
+      - Society perspective
+        - Privacy protection clauses
+        - Industry rules
+        - Supervision
+      - Developer perspective
+        - Confidential computing
+        - Model privacy protection
+        - Data anonymization
+        - Differential privacy training
+        - Model encryption
+        - Model obfuscation
+        - Federated learning
+        - Adversarial learning
+    - Copyright and Authority
+      - Are AI-created works protected by copyright laws?
+      - Who owns AI-generated content?
+      - Who authorizes robots?
+      - What rights should robots have?
+  - Future Value of AI
+    - Wide Application
+      - Smart transportation
+      - Energy
+      - Finance
+      - Digital government
+      - Smart mining
+      - Smart manufacturing
+    - Growing Market
+      - Global AI market growth
+      - Rising AI IT investment
+      - Foundation model solution market growth
+    - Higher Production Efficiency
+      - Better product quality
+      - Faster R&D
+      - Improved production efficiency
+      - Labor productivity improvement
+    - Industry-specific AI Applications
+      - AI customized for vertical industries
+      - Solves domain pain points
+      - Creates differentiated solutions
+  - Future AI Technologies
+    - Artificial General Intelligence
+      - Universal intelligence
+      - Self-learning
+      - Self-improvement
+      - Self-adjustment
+      - Cross-domain and cross-modal learning
+      - Inference and decision-making capabilities
+    - Embodied Artificial Intelligence
+      - AI embedded in physical objects
+      - Autonomous perception
+      - Learning
+      - Decision-making
+      - Action in physical environments
+  - AI Devices
+    - Smartphones
+      - Natural interaction
+      - AI-powered user experience
+    - Intelligent Vehicles
+      - Intelligent driving
+      - Safe and comfortable driving experience
+    - Smart Home Appliances
+      - Recipe recommendations
+      - Energy optimization
+      - Language interaction
+    - Intelligent Robots
+      - Stronger sensing
+      - Decision-making
+      - Housekeeping
+      - Nursing
+    - Wearables
+      - Health monitoring
+      - Personal assistance
+  - Future of AI Applications
+    - Wider industry applications
+    - Multimodal and cross-modal learning
+    - Enhanced personalization and adaptability
+    - Improved self-learning capabilities
+    - Stricter ethical and security control
+    - Open-source and democratized AI technologies
+    - Energy efficiency and sustainability
+
+- Chapter Summary
+  - AI is a broad technical field for simulating and extending human intelligence
+  - Machine Learning and Deep Learning are key implementation paths
+  - Modern AI depends on data, algorithms, and computing power
+  - NLP and CV are major AI technology fields
+  - Foundation models are central to current AI development
+  - DeepSeek is used as a case study for efficient, open-source, large-model innovation
+  - AI applications are moving from perception and single-task systems to generation, multimodality, and general-purpose capabilities
+  - AI development raises important debates around authenticity, ethics, employment, privacy, security, and copyright
+  - Future AI trends include AGI, embodied AI, multimodal learning, industry-specific applications, open-source ecosystems, and sustainability
+
