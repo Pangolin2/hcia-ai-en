@@ -58,7 +58,7 @@
       - Based on artificial neural networks
       - Uses hierarchical feature representation
       - Strong in images, speech, text, and multimodal data
-    - Teaching anchor
+    - Concept anchor
       - AI is the goal and field
       - Machine Learning is a method
       - Deep Learning is a neural-network-based method inside machine learning
@@ -72,7 +72,7 @@
         - Heuristic algorithms
         - Expert systems
         - Knowledge engineering
-      - Teaching focus
+      - Reading focus
         - Rule-based reasoning
         - Knowledge representation
     - Connectionism
@@ -84,7 +84,7 @@
         - Neural networks
         - Backpropagation
         - Deep learning
-      - Teaching focus
+      - Reading focus
         - Model learns from data
         - Neural network as the foundation of modern AI
     - Behaviorism
@@ -96,7 +96,7 @@
         - Robotics
         - Adaptive control
         - Perception-action systems
-      - Teaching focus
+      - Reading focus
         - Learning from environment
         - Continuous correction through feedback
   - Three Elements for AI Development
