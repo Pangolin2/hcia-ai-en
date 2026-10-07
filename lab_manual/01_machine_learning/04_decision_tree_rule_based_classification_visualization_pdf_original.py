@@ -1,36 +1,73 @@
 import pandas as pd
-import numpy as np
+import matplotlib.pyplot as plt
 from sklearn import tree
-import pydotplus
 
 
-# Generate a decision tree.
+# Train a decision tree classifier.
 def createTree(trainingData):
-    data = trainingData.iloc[:, :-1] # Feature matrix
-    labels = trainingData.iloc[:, -1] # Labels
-    trainedTree = tree.DecisionTreeClassifier(criterion="entropy") # Decision tree classifier
-    trainedTree.fit(data, labels) # Train the model.
+    data = trainingData.iloc[:, :-1]   # Feature matrix
+    labels = trainingData.iloc[:, -1]  # Target labels
+
+    trainedTree = tree.DecisionTreeClassifier(
+        criterion="entropy",
+        random_state=42
+    )
+    trainedTree.fit(data, labels)
     return trainedTree
 
 
-def showtree2pdf(trainedTree, finename):
-    dot_data = tree.export_graphviz(trainedTree, out_file=None) # Export the tree in Graphviz format.
-    graph = pydotplus.graph_from_dot_data(dot_data)
-    graph.write_pdf(finename) # Save the tree diagram to the local machine in PDF format.
+# Display the decision tree directly as an image.
+def showtree(trainedTree, feature_names):
+    fig, ax = plt.subplots(figsize=(16, 10), dpi=120)
+
+    tree.plot_tree(
+        trainedTree,
+        feature_names=[str(name) for name in feature_names],
+        class_names=[str(label) for label in trainedTree.classes_],
+        filled=True,       # Color nodes based on their classes.
+        rounded=True,      # Use rounded node boxes.
+        fontsize=10,       # Set the font size.
+        precision=2,       # Set the number of decimal places.
+        ax=ax
+    )
+
+    ax.set_title("Tennis Decision Tree", fontsize=16)
+    fig.tight_layout()
+
+    # Uncomment the following line to also save the image as a PNG file.
+    # fig.savefig("tennis_tree.png", dpi=300, bbox_inches="tight")
+
+    plt.show()
 
 
+# Convert categorical features into numerical codes.
 def data2vectoc(data):
-    names = data.columns[:-1]
-    for i in names:
-        col = pd.Categorical(data[i])
-        data[i] = col.codes
+    data = data.copy()
+
+    for name in data.columns[:-1]:
+        col = pd.Categorical(data[name])
+        data[name] = col.codes
+
+        # Print the encoding mapping to help prepare test data correctly.
+        print(f"Feature {name} encoding: {dict(enumerate(col.categories))}")
+
     return data
 
 
-data = pd.read_table("./ML/tennis.txt", header=None, sep='\t') # Read training data.
-trainingvec = data2vectoc(data) # Vectorize data.
-decisionTree = createTree(trainingvec) # Create a decision tree.
-showtree2pdf(decisionTree, "tennis.pdf") # Plot the decision tree.
+# Load data: the last column contains labels; all other columns are features.
+data = pd.read_table("./tennis.txt", header=None, sep="\t")
 
-testVec = [0, 0, 1, 1] # Weather is sunny, temperature is low, humidity is high, and wind is strong.
-print(decisionTree.predict(np.array(testVec).reshape(1, -1))) # Predict.
+# Encode features and train the model.
+trainingvec = data2vectoc(data)
+decisionTree = createTree(trainingvec)
+
+# Predict using numerical codes from the printed encoding mappings.
+testVec = [0, 0, 1, 1]
+testData = pd.DataFrame(
+    [testVec],
+    columns=trainingvec.columns[:-1]
+)
+print("Prediction:", decisionTree.predict(testData))
+
+# Display the decision tree.
+showtree(decisionTree, trainingvec.columns[:-1])
